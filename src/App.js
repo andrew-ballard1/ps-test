@@ -6,19 +6,6 @@ import Map from './Map'
 // data placeholders
 // ------------------------------------------------------------------
 
-const droneOverviewData = [
-  {id: 1, position: [41.07930001, -85.13940001], inMotion: false, battery: 100, temperature: 30, velocity: 0},
-  {id: 2, position: [41.07930002, -85.13940002], inMotion: false, battery: 100, temperature: 30, velocity: 0},
-  {id: 3, position: [41.07930003, -85.13940003], inMotion: false, battery: 100, temperature: 30, velocity: 0},
-  {id: 4, position: [41.07930004, -85.13940004], inMotion: false, battery: 100, temperature: 30, velocity: 0},
-  {id: 5, position: [41.07930005, -85.13940005], inMotion: false, battery: 100, temperature: 30, velocity: 0},
-  {id: 6, position: [41.07930006, -85.13940006], inMotion: false, battery: 100, temperature: 30, velocity: 0},
-  {id: 7, position: [41.07930007, -85.13940007], inMotion: false, battery: 100, temperature: 30, velocity: 0},
-  {id: 8, position: [41.07930008, -85.13940008], inMotion: false, battery: 100, temperature: 30, velocity: 0},
-  {id: 9, position: [41.07930009, -85.13940009], inMotion: false, battery: 100, temperature: 30, velocity: 0},
-  {id: 10, position: [41.07930010, -85.13940010], inMotion: false, battery: 100, temperature: 30, velocity: 0},
-]
-
 
 // ------------------------------------------------------------------
 // data placeholders end
