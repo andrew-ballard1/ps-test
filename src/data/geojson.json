@@ -1,0 +1,1056 @@
+[
+    {
+        "type": "Feature",
+        "properties":{
+            "id": 1,
+            "position": [41.09308855538089, -85.2545766765252],
+            "inMotion": false,
+            "battery": 95,
+            "temperature": 33,
+            "velocity": 0,
+            "isCharging": false,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 1, "velocity": 1, "battery": 77},
+                {"temperature": 67, "isCharging": 1, "velocity": 0, "battery": 79},
+                {"temperature": 57, "isCharging": 1, "velocity": 0, "battery": 84},
+                {"temperature": 45, "isCharging": 1, "velocity": 0, "battery": 90},
+                {"temperature": 34, "isCharging": 0, "velocity": 0, "battery": 95}
+            ],
+            "warrants":[
+                {"id": 1, "segmentId":"abcde12345"},
+                {"id": 2, "segmentId":"12345abcde"}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.2545766765252, 41.09308855538089]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 2,
+            "position": [41.09302386967857, -85.25429772678763],
+            "inMotion": false,
+            "battery": 93,
+            "temperature": 34,
+            "velocity": 0,
+            "isCharging": false,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25429772678763, 41.09302386967857]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 3,
+            "position": [41.0929915268035, -85.25419],
+            "inMotion": false,
+            "battery": 85,
+            "temperature": 33,
+            "velocity": 0,
+            "isCharging": false,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25419, 41.0929915268035]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 4,
+            "position": [41.09294, -85.25397586170584],
+            "inMotion": false,
+            "battery": 55,
+            "temperature": 54,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25397586170584, 41.09294]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 5,
+            "position": [41.092908, -85.253866],
+            "inMotion": false,
+            "battery": 98,
+            "temperature": 29,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.253866, 41.092908]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 6,
+            "position": [41.092875, -85.2536754],
+            "inMotion": false,
+            "battery": 97,
+            "temperature": 33,
+            "velocity": 0,
+            "isCharging": false,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.2536754, 41.092875]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 7,
+            "position": [41.092844, -85.2535754],
+            "inMotion": true,
+            "battery": 100,
+            "temperature": 31,
+            "velocity": 0.05,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.2535754, 41.092844]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 8,
+            "position": [41.092794, -85.25335358921438],
+            "inMotion": false,
+            "battery": 84,
+            "temperature": 61,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25335358921438, 41.092794]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 9,
+            "position": [41.092765, -85.25325],
+            "inMotion": false,
+            "battery": 12,
+            "temperature": 88,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25325, 41.092765]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 10,
+            "position": [41.092699, -85.25299],
+            "inMotion": false,
+            "battery": 15,
+            "temperature": 81,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25299, 41.092699]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties":{
+            "id": 11,
+            "position": [41.1199, -85.3506],
+            "inMotion": false,
+            "battery": 74,
+            "temperature": 41,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.3506, 41.1199]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 12,
+            "position": [41.1206, -85.3502],
+            "inMotion": false,
+            "battery": 25,
+            "temperature": 47,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.3502, 41.1206]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 13,
+            "position": [41.1179, -85.34575],
+            "inMotion": false,
+            "battery": 85,
+            "temperature": 33,
+            "velocity": 0,
+            "isCharging": false,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.34575, 41.1179]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 14,
+            "position": [41.1179, -85.34585],
+            "inMotion": false,
+            "battery": 55,
+            "temperature": 54,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.34585, 41.1179]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 15,
+            "position": [41.1179, -85.34595],
+            "inMotion": false,
+            "battery": 98,
+            "temperature": 29,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.34595, 41.1179]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 16,
+            "position": [41.1180, -85.34605],
+            "inMotion": false,
+            "battery": 97,
+            "temperature": 33,
+            "velocity": 0,
+            "isCharging": false,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.34605, 41.1180]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 17,
+            "position": [41.1180, -85.34615],
+            "inMotion": true,
+            "battery": 100,
+            "temperature": 31,
+            "velocity": 0.05,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.34615, 41.1180]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 18,
+            "position": [41.1179, -85.34625],
+            "inMotion": false,
+            "battery": 84,
+            "temperature": 61,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.34625, 41.1179]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 19,
+            "position": [41.1181, -85.34635],
+            "inMotion": false,
+            "battery": 12,
+            "temperature": 88,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.34635, 41.1181]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 20,
+            "position": [41.1181, -85.34655],
+            "inMotion": false,
+            "battery": 15,
+            "temperature": 81,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.34655, 41.1181]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties":{
+            "id": 21,
+            "position": [41.09308855538089, -85.2545766765252],
+            "inMotion": false,
+            "battery": 95,
+            "temperature": 33,
+            "velocity": 0,
+            "isCharging": false,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.2545766765252, 41.09308855538089]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 22,
+            "position": [41.09302386967857, -85.25429772678763],
+            "inMotion": false,
+            "battery": 93,
+            "temperature": 34,
+            "velocity": 0,
+            "isCharging": false,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25429772678763, 41.09302386967857]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 23,
+            "position": [41.0929915268035, -85.25419],
+            "inMotion": false,
+            "battery": 85,
+            "temperature": 33,
+            "velocity": 0,
+            "isCharging": false,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25419, 41.0929915268035]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 24,
+            "position": [41.09294, -85.25397586170584],
+            "inMotion": false,
+            "battery": 55,
+            "temperature": 54,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25397586170584, 41.09294]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 25,
+            "position": [41.092908, -85.253866],
+            "inMotion": false,
+            "battery": 98,
+            "temperature": 29,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.253866, 41.092908]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 26,
+            "position": [41.092875, -85.2536754],
+            "inMotion": false,
+            "battery": 97,
+            "temperature": 33,
+            "velocity": 0,
+            "isCharging": false,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.2536754, 41.092875]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 27,
+            "position": [41.092844, -85.2535754],
+            "inMotion": true,
+            "battery": 100,
+            "temperature": 31,
+            "velocity": 0.05,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.2535754, 41.092844]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 28,
+            "position": [41.092794, -85.25335358921438],
+            "inMotion": false,
+            "battery": 84,
+            "temperature": 61,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25335358921438, 41.092794]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 29,
+            "position": [41.092765, -85.25325],
+            "inMotion": false,
+            "battery": 12,
+            "temperature": 88,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25325, 41.092765]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": 30,
+            "position": [41.092699, -85.25299],
+            "inMotion": false,
+            "battery": 15,
+            "temperature": 81,
+            "velocity": 0,
+            "isCharging": true,
+            "history":[
+                {"temperature": 21, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 25, "isCharging": 0, "velocity": 5, "battery": 65},
+                {"temperature": 23, "isCharging": 0, "velocity": 1, "battery": 65},
+                {"temperature": 27, "isCharging": 1, "velocity": 0, "battery": 68},
+                {"temperature": 25, "isCharging": 1, "velocity": 0, "battery": 74},
+                {"temperature": 89, "isCharging": 1, "velocity": 0, "battery": 85},
+                {"temperature": 54, "isCharging": 0, "velocity": 0, "battery": 85},
+                {"temperature": 35, "isCharging": 0, "velocity": 5, "battery": 84},
+                {"temperature": 34, "isCharging": 0, "velocity": 5, "battery": 82},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 81},
+                {"temperature": 33, "isCharging": 0, "velocity": 5, "battery": 79},
+                {"temperature": 31, "isCharging": 0, "velocity": 5, "battery": 78},
+                {"temperature": 36, "isCharging": 0, "velocity": 5, "battery": 77},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 37, "isCharging": 0, "velocity": 5, "battery": 75},
+                {"temperature": 29, "isCharging": 0, "velocity": 5, "battery": 74},
+                {"temperature": 28, "isCharging": 0, "velocity": 5, "battery": 74}
+            ]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.25299, 41.092699]
+        }
+    }
+]
