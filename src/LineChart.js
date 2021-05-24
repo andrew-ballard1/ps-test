@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import '../node_modules/react-vis/dist/style.css';
 import {
@@ -8,7 +8,6 @@ import {
   VerticalGridLines,
   HorizontalGridLines,
   LineSeries,
-  LineMarkSeries,
   DiscreteColorLegend
 } from 'react-vis';
 

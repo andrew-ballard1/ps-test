@@ -154,7 +154,7 @@ const Map = () => {
     const [selectedDrone, setSelectedDrone] = useState({
         properties: { id: 0 },
     });
-    const [showClusters, setShowClusters] = useState(false);
+    // const [showClusters, setShowClusters] = useState(false);
     const [showInMotion, setShowInMotion] = useState(false);
     const [showCharging, setShowCharging] = useState(false);
     const [showNeedsCharging, setShowNeedsCharging] = useState(false);
@@ -170,13 +170,13 @@ const Map = () => {
 		let returnVal = true
 
 		if(showCharging){
-			returnVal = item.properties.isCharging == true
+			returnVal = item.properties.isCharging === true
 		}
 		if(returnVal && showNeedsCharging){
 			returnVal = item.properties.battery < 30
 		}
 		if(returnVal && showInMotion){
-			returnVal = item.properties.inMotion == true || item.properties.velocity > 0
+			returnVal = item.properties.inMotion === true || item.properties.velocity > 0
 		}
 		if(returnVal && showWarrantReqs){
 			returnVal = item.properties.warrants?.length > 0
@@ -194,7 +194,7 @@ const Map = () => {
     useEffect(() => {
         const newKey = makeKey(10);
         setGeoJsonKey(newKey);
-    }, [displayedMarkers, showClusters, showInMotion, showCharging, showNeedsCharging, showWarrantReqs]);
+    }, [displayedMarkers, showInMotion, showCharging, showNeedsCharging, showWarrantReqs]);
 
     //Creating popups for the map
     const createPopups = (feature = {}, layer) => {
@@ -265,7 +265,7 @@ const Map = () => {
                     alignContent: "flex-start",
                 }}
             >
-                {selectedDrone.properties.id == 0 && (
+                {selectedDrone.properties.id === 0 && (
                     <div style={{display: 'flex', flexDirection: 'column', width: '100%', height: '95vh'}}>
 						<div style={{display: 'flex', flexDirection: 'column', width: '200px', height: '30vh'}}>
 							<h4>Filters</h4>
@@ -341,7 +341,7 @@ const Map = () => {
                     />
 
                     {/* at some point, we should be able to use this to filter companies leasing drones */}
-                    {showClusters && (
+                    {false && (
                         <FeatureGroup ref={groupRef} name="Drones">
                             <MarkerClusterGroup
                                 ref={clusterRef}
@@ -355,7 +355,7 @@ const Map = () => {
                             </MarkerClusterGroup>
                         </FeatureGroup>
                     )}
-                    {!showClusters && (
+                    {true && (
                         <GeoJSON
                             data={appliedFilterData}
                             key={geoJsonKey}
