@@ -115,7 +115,6 @@ const controlScreen = (set, reset, drone) => {
             <h2 style={{ cursor: "pointer" }} onClick={() => reset()}>
                 Back
             </h2>
-            {/* <div>{JSON.stringify(drone)}</div> */}
 
             <div>Drone {id}</div>
             <div>In motion: {inMotion ? velocity + "m/s" : "No"}</div>
@@ -137,7 +136,6 @@ const controlScreen = (set, reset, drone) => {
 };
 
 const Toggle = styled.button`
-	/* Adapt the colors based on primary prop */
 	color: #323432;
 	margin: 5px;
 	padding: 0.25em 1em;
@@ -204,21 +202,21 @@ const Map = () => {
     //Creating popups for the map
     const createPopups = (feature = {}, layer) => {
 		return
-        const { properties = {} } = feature;
-        const { velocity, temperature, inMotion, battery, id } = properties;
-        const popup = L.popup();
-        const html = `
-			<div style="text-align: left;">
-				<h3>Drone ${id}</h3>
-				<ul>
-					<li><strong>Charge:</strong> ${battery}%</li>
-					<li><strong>Temperature:</strong> ${temperature} &deg;C</li>
-					<li><strong>In Motion:</strong>${inMotion ? velocity + "m/s" : "No"}</li>
-				</ul>
-			</div>
-		`;
-        popup.setContent(html);
-        layer.bindPopup(popup);
+        // const { properties = {} } = feature;
+        // const { velocity, temperature, inMotion, battery, id } = properties;
+        // const popup = L.popup();
+        // const html = `
+		// 	<div style="text-align: left;">
+		// 		<h3>Drone ${id}</h3>
+		// 		<ul>
+		// 			<li><strong>Charge:</strong> ${battery}%</li>
+		// 			<li><strong>Temperature:</strong> ${temperature} &deg;C</li>
+		// 			<li><strong>In Motion:</strong>${inMotion ? velocity + "m/s" : "No"}</li>
+		// 		</ul>
+		// 	</div>
+		// `;
+        // popup.setContent(html);
+        // layer.bindPopup(popup);
     };
 
     // Handle creation of clusters and change styles
