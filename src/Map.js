@@ -1,12 +1,11 @@
-import React, { useState, useEffect, useRef, useCallback } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { MapContainer, TileLayer, GeoJSON, FeatureGroup, useMap } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import { makeKey } from "./lib/makeKey";
 import geojson from "./data/geojson.json";
 import "react-leaflet-markercluster/dist/styles.min.css";
 import "./lib/map.css";
-import L, { map } from "leaflet";
-import { Helmet } from "react-helmet";
+import L from "leaflet";
 import GetVisibleMarkers from "./lib/get-visible-markers";
 import UpdateMapPosition from "./lib/update-map-position";
 import DataTable, { createTheme } from 'react-data-table-component';
