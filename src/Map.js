@@ -136,7 +136,6 @@ const controlScreen = (set, reset, drone) => {
 const Toggle = styled.button`
 	color: #323432;
 	margin: 5px;
-	// padding: 0.25em 1em;
 	border: 2px solid #323432;
 	border-radius: 3px;
 	transition: 0.2s;
