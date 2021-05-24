@@ -35,14 +35,14 @@ function App() {
 
   return (
     <div className="App">
-	<div style={{height: '5vh', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-		<h2>Overview</h2>
-	</div>
-      <header className="App-header">
-        <div style={{background: 'silver', height: '95vh', width: '50vw'}}>
-          <Map />
-        </div>
-      </header>
+		<div style={{height: '5vh', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+			<h2>Overview</h2>
+		</div>
+		<header className="App-header">
+			<div style={{background: 'silver', height: '100%', width: '50vw'}}>
+				<Map />
+			</div>
+		</header>
     </div>
   );
 }

@@ -96,8 +96,10 @@ const Table = (data, setCenterPoint) => {
 			columns={columns} 
 			data={data}
 			expandableRows
-        	expandableRowsComponent={<ExpandableComponent />}
-			theme={'solarized'}
+			expandableRowsComponent={<ExpandableComponent />}
+			// theme={'solarized'}
+			fixedHeader
+			fixedHeaderScrollHeight={'65vh'}
 		/>
 	);
 };
@@ -134,7 +136,7 @@ const controlScreen = (set, reset, drone) => {
 const Toggle = styled.button`
 	color: #323432;
 	margin: 5px;
-	padding: 0.25em 1em;
+	// padding: 0.25em 1em;
 	border: 2px solid #323432;
 	border-radius: 3px;
 	transition: 0.2s;
@@ -265,9 +267,9 @@ const Map = () => {
                 }}
             >
                 {selectedDrone.properties.id == 0 && (
-                    <div style={{display: 'flex', flexDirection: 'column', width: '100%', height: '100%'}}>
-						<h4>Filters</h4>
-						<div style={{display: 'flex', flexDirection: 'column', width: '200px'}}>
+                    <div style={{display: 'flex', flexDirection: 'column', width: '100%', height: '95vh'}}>
+						<div style={{display: 'flex', flexDirection: 'column', width: '200px', height: '30vh'}}>
+							<h4>Filters</h4>
 							{/* <Toggle 
 								onClick={(e) => {
 									setShowCharging(true)
@@ -282,32 +284,32 @@ const Map = () => {
 								onClick={(e) => {
 									setShowCharging(!showCharging)
 								}}
-							>{showCharging ? 'Hide' : 'Show'} Charging</Toggle>
+							>Charging</Toggle>
 							<Toggle 
 								className={showNeedsCharging ? 'selectedButton' : ''}
 								onClick={(e) => {
 									setShowNeedsCharging(!showNeedsCharging)
 								}}
-							>{showNeedsCharging ? 'Hide' : 'Show'} needs charging</Toggle>
+							>Needs Charging</Toggle>
 							<Toggle 
 								className={showInMotion ? 'selectedButton' : ''}
 								onClick={(e) => {
 									setShowInMotion(!showInMotion)
 								}}
-							>{showInMotion ? 'Hide' : 'Show'} in motion</Toggle>
+							>In Motion</Toggle>
 							<Toggle 
 								className={showWarrantReqs ? 'selectedButton' : ''}
 								onClick={(e) => {
 									setShowWarrantReqs(!showWarrantReqs)
 								}}
-							>{showWarrantReqs ? 'Hide' : 'Show'} warrant request</Toggle>
+							>Warrant Requests</Toggle>
 							{/* <Toggle 
 								onClick={(e) => {
 									setShowClusters(!showClusters)
 								}}
 							>Use {showClusters ? 'Single' : 'Clusters'}</Toggle> */}
 						</div>
-						<div style={{width: '100%', overflow: 'auto'}}>
+						<div style={{width: '100%', display: 'flex', flexDirection: 'column'}}>
 							{Table(appliedFilterData.map(item => item.properties), setCenterPoint)}
 						</div>
 					</div>

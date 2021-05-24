@@ -16,8 +16,10 @@
 .App-header {
   background-color: #282c34;
   min-height: 95vh;
+  height: 95vh;
   display: flex;
   color: white;
+
 }
 
 .App-link {
@@ -70,7 +72,7 @@
   flex-direction: column;
   justify-content: flex-start;
   width: calc(100% - 30px);
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 .drone_card {
