@@ -76,12 +76,12 @@ const Table = (data, setCenterPoint, setInitialZoom) => {
 	const ExpandableComponent = ({ data }) => {
 		// console.log(data)
 		const history = data.history || []
-		setInitialZoom(true)
 		return (
 			<div style={{display: 'flex', flexDirection: 'row', minHeight: '400px'}}>
 				<div style={{width: '100%', maxWidth: '100%', overflow: 'auto', minHeight: '100px', display: 'flex', flexDirection: 'column', margin: '10px', marginRight: '50px'}}>
 					<button style={{background: 'red', color: 'white', borderRadius: '4px', border: 'none', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', cursor: 'pointer'}}>STOP Drone {data.id}</button>
 					<button onClick={() => {
+						setInitialZoom(true)
 						return setCenterPoint(data.position)
 					}} style={{background: 'white', color: '#333', borderRadius: '4px', border: 'none', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', cursor: 'pointer'}}>Show on Map</button>
 				</div>
@@ -98,7 +98,7 @@ const Table = (data, setCenterPoint, setInitialZoom) => {
 			columns={columns} 
 			data={data}
 			expandableRows
-			expandableRowsComponent={<ExpandableComponent />}
+			expandableRowsComponent={<ExpandableComponent data={data} setInitialZoom={() => setInitialZoom}/>}
 			// theme={'solarized'}
 			fixedHeader
 			fixedHeaderScrollHeight={'65vh'}
@@ -198,6 +198,12 @@ const Map = () => {
         const newKey = makeKey(10);
         setGeoJsonKey(newKey);
     }, [displayedMarkers, showInMotion, showCharging, showNeedsCharging, showWarrantReqs]);
+
+	useEffect(() => {
+		setInitialZoom(false)
+        // const newKey = makeKey(10);
+        // setGeoJsonKey(newKey);
+    }, [showInMotion, showCharging, showNeedsCharging, showWarrantReqs]);
 
     //Creating popups for the map
     const createPopups = (feature = {}, layer) => {
@@ -331,7 +337,7 @@ const Map = () => {
                     zoom={12}
                     scrollWheelZoom={false}
                 >
-					{initialZoom && <ChangeView center={centerPoint} zoom={19} />}
+					{!initialZoom ? <ChangeView center={centerPoint} zoom={12} /> : <ChangeView center={centerPoint} zoom={19} />}
                     <TileLayer
                         url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
                         maxZoom={20}

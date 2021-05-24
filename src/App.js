@@ -35,8 +35,10 @@ function App() {
 
   return (
     <div className="App">
-		<div style={{height: '5vh', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-			<h2>Overview</h2>
+		<div style={{height: '5vh', display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: '#EA2718', color: 'white', fontWeight: 800, fontSize: '18pt'}}>
+			<div style={{background: 'url("https://www.moveparallel.com/assets/parallel_systems.svg")', height: '100%', width: '200px', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center'}}></div>
+			<div>Test Fleet Overview</div>
+			<div style={{background: 'transparent', height: '100%', width: '200px', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center'}}></div>
 		</div>
 		<header className="App-header">
 			<div style={{background: 'silver', height: '100%', width: '50vw'}}>
