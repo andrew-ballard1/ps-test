@@ -50,7 +50,7 @@ export default function LineChart(data){
             stroke={'#00aa00'}
         />
         <DiscreteColorLegend
-          items={[{title: "Temp (C)", strokeWidth: '4'}, {title: "Charging State", color:"#aa0000", strokeWidth: '4'}, {title: "Battery level", color: "#00aa00", strokeWidth: '4'}]}
+          items={[{title: "Temp (C)", strokeWidth: 4}, {title: "Charging State", color:"#aa0000", strokeWidth: 4}, {title: "Battery level", color: "#00aa00", strokeWidth: 4}]}
           orientation={"horizontal"}
         />
       </XYPlot>

@@ -13,7 +13,7 @@ import styled from 'styled-components'
 
 import LineChart from './LineChart';
 
-const Table = (data, setCenterPoint) => {
+const Table = (data, setCenterPoint, setInitialZoom) => {
 
 	createTheme('solarized', {
 		text: {
@@ -76,12 +76,14 @@ const Table = (data, setCenterPoint) => {
 	const ExpandableComponent = ({ data }) => {
 		// console.log(data)
 		const history = data.history || []
-	
+		setInitialZoom(true)
 		return (
 			<div style={{display: 'flex', flexDirection: 'row', minHeight: '400px'}}>
 				<div style={{width: '100%', maxWidth: '100%', overflow: 'auto', minHeight: '100px', display: 'flex', flexDirection: 'column', margin: '10px', marginRight: '50px'}}>
 					<button style={{background: 'red', color: 'white', borderRadius: '4px', border: 'none', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', cursor: 'pointer'}}>STOP Drone {data.id}</button>
-					<button onClick={() => setCenterPoint(data.position)} style={{background: 'white', color: '#333', borderRadius: '4px', border: 'none', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', cursor: 'pointer'}}>Show on Map</button>
+					<button onClick={() => {
+						return setCenterPoint(data.position)
+					}} style={{background: 'white', color: '#333', borderRadius: '4px', border: 'none', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', cursor: 'pointer'}}>Show on Map</button>
 				</div>
 				<div>
 					{LineChart(history)}
@@ -150,6 +152,7 @@ const Map = () => {
 
     // STATE
 
+    const [initialZoom, setInitialZoom] = useState(false)
     const [centerPoint, setCenterPoint] = useState([41.09302386967857, -85.25429772678763])
     const [selectedDrone, setSelectedDrone] = useState({
         properties: { id: 0 },
@@ -241,7 +244,7 @@ const Map = () => {
     const resetSelectedDrone = () => {
         setSelectedDrone({ properties: { id: 0 } });
     };
-
+	
 	function ChangeView({ center, zoom }) {
 		const map = useMap();
 		map.setView(center, zoom);
@@ -309,7 +312,7 @@ const Map = () => {
 							>Use {showClusters ? 'Single' : 'Clusters'}</Toggle> */}
 						</div>
 						<div style={{width: '100%', display: 'flex', flexDirection: 'column'}}>
-							{Table(appliedFilterData.map(item => item.properties), setCenterPoint)}
+							{Table(appliedFilterData.map(item => item.properties), setCenterPoint, setInitialZoom)}
 						</div>
 					</div>
                 )}
@@ -324,11 +327,11 @@ const Map = () => {
 
             <div style={{ height: "100%", width: "50vw" }}>
                 <MapContainer
-                    center={centerPoint}
-                    zoom={16}
+                    center={[41.0930, -85.2542]}
+                    zoom={12}
                     scrollWheelZoom={false}
                 >
-					<ChangeView center={centerPoint} zoom={19} />
+					{initialZoom && <ChangeView center={centerPoint} zoom={19} />}
                     <TileLayer
                         url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
                         maxZoom={20}
