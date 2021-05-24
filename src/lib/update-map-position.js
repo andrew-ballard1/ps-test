@@ -6,14 +6,14 @@ const UpdateMapViewportLogic = ({ geoJsonKey, groupRef, displayedMarkers }) => {
   const map = useMap()
 
   // Reset the bounds of the map based on the displayed markers
-  const updateMapPosition = () => {
-    if (displayedMarkers.length > 0 && map && groupRef.current) {
-      const layer = groupRef.current
-      if (layer) {
-        map.fitBounds(layer.getBounds().pad(0.5))
-      }
-    }
-  }
+  // const updateMapPosition = () => {
+  //   if (displayedMarkers.length > 0 && map && groupRef.current) {
+  //     const layer = groupRef.current
+  //     if (layer) {
+  //       map.fitBounds(layer.getBounds().pad(0.5))
+  //     }
+  //   }
+  // }
 
   // useEffect Hook to reset viewport when geoJson changes
   useEffect(() => {
