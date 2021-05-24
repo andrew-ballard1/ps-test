@@ -14,9 +14,6 @@ import styled from 'styled-components'
 
 import LineChart from './LineChart';
 
-
-// const data = [{ id: 1, title: 'Conan the Barbarian', year: '1982' }];
-
 const Table = (data, setCenterPoint) => {
 
 	createTheme('solarized', {
@@ -221,7 +218,6 @@ const Map = () => {
 
     // Handle creation of clusters and change styles
     const createClusters = (cluster) => {
-        console.log(cluster);
         const childCount = cluster.getChildCount();
         let size = "";
         if (childCount < 10) {
