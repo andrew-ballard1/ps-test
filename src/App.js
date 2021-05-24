@@ -52,9 +52,7 @@ function App() {
 		<h2>Overview</h2>
 	</div>
       <header className="App-header">
-        {/* <LeftPane /> */}
         <div style={{background: 'silver', height: '95vh', width: '50vw'}}>
-          {/* <BasicMap /> */}
           <Map />
         </div>
       </header>

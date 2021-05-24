@@ -342,7 +342,7 @@ const Map = () => {
                     />
                     <TileLayer
                         attribution='&copy; <a href="http://www.openrailwaymap.org/">OpenRailwayMap</a>'
-                        url="http://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png"
+                        url="https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png"
                         maxZoom={20}
                     />
 
